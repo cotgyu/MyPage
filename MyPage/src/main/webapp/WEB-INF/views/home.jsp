@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 
-  <head>
-
-    <meta charset="utf-8">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -30,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Cotgyu</a>
+        <a class="navbar-brand js-scroll-trigger" href="/">Cotgyu</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -41,14 +43,12 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">MySkil</a>
+              <a class="nav-link js-scroll-trigger" href="#services">MySkills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+         
           </ul>
         </div>
       </div>
@@ -76,12 +76,12 @@
     </header>
 	
 	<!-- About -->
-    <section id="about">
+    <section class="bg-light" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+       
           </div>
         </div>
         <div class="row">
@@ -89,43 +89,43 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/stylesheets/img/about/1.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="/stylesheets/img/about/about1.PNG" width="500" height="2000">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
+                    <h4>2012~2017</h4>
+                    <h4 class="subheading">단국대학교</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">컴퓨터과학과 입학 후 C, JAVA, HTML, PYTHON 학습</p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/stylesheets/img/about/2.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="/stylesheets/img/about/about2.PNG" width="1500" height="3000">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
+                    <h4>2013~2015</h4>
+                    <h4 class="subheading">군대 입대 </h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">9월 9일  6사단 입대 후 무사히 전역</p>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="/stylesheets/img/about/3.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="/stylesheets/img/about/about3.PNG" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
+                    <h4>2017 10월</h4>
+                    <h4 class="subheading">Cot 완성</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">스프링을 이용한 커뮤니티 페이지 완성(개인)</p>
                   </div>
                 </div>
               </li>
@@ -135,19 +135,18 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
+                    <h4>2017 11월</h4>
+                    <h4 class="subheading">Pop 완성</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">스프링을 이용한 SNS 완성(스터디 프로젝트)</p>
                   </div>
                 </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
+                  <h4>WEB Programming      
+                    <br>Keep Going!</h4>
                 </div>
               </li>
             </ul>
@@ -163,17 +162,17 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading"></h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+             <h2 class="section-heading">My Skills</h2>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">JAVA</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted"></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -181,7 +180,7 @@
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">SpringFramework</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted"></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -189,7 +188,7 @@
               <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted"></p>
           </div>
         </div>
       </div>
@@ -201,22 +200,22 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+           
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"><!-- 바로 주소로 연결할 것 -->
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/stylesheets/img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="/stylesheets/img/portfolio/1.PNG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>Cot</h4>
+              <p class="text-muted">커뮤니티 웹페이지</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -226,13 +225,14 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/stylesheets/img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="/stylesheets/img/portfolio/2.PNG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h4>Pop(Purple of people)</h4>
+              <p class="text-muted">SNS<br></p>
             </div>
           </div>
+          <!-- 포트폴리오 앞으로 채울것들  -->
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
@@ -240,11 +240,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/stylesheets/img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4></h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -254,11 +254,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/stylesheets/img/portfolio/04-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4></h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -268,11 +268,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/stylesheets/img/portfolio/05-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4></h4>
+              <p class="text-muted"></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -282,61 +282,12 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="/stylesheets/img/portfolio/06-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="/" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4></h4>
+              <p class="text-muted"></p>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-
-
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </div>
@@ -347,43 +298,34 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+            <span class="copyright">Copyright &copy; Cotgyu 2017</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100002282055147">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
+                <li class="list-inline-item">
+                <a href="https://github.com/cotgyu">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://cotmulgyu.blogspot.com/">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </footer>
 
     <!-- Portfolio Modals -->
-
+	<!--  포트폴리오 상세 창 여기를 통해 표현해줘도 될듯! -->
     <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -398,14 +340,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="/stylesheets/img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2>Cot</h2>
+                  <p class="item-intro text-muted">회원제 커뮤니티 웹페이지</p>
+                  <img class="img-fluid d-block mx-auto" src="/stylesheets/img/portfolio/1.PNG" alt="">
+                  <p>[Spring, Spring Security, Mybatis, Mysql, NaverSmartEditor]</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: 2017/10</li>                  
+                    <li><a href="http://v123v123s.cafe24.com">Cot</a></li>
+                    <li><a href="https://github.com/cotgyu/Cot_pr1">Github</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -432,14 +374,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="/stylesheets/img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2>Pop(Purple of people)</h2>
+                  <p class="item-intro text-muted">SNS</p>
+                  <img class="img-fluid d-block mx-auto" src="/stylesheets/img/portfolio/2.PNG" alt="">
+                  <p>[Spring, Spring Security, Mybatis, Mysql, KaKaoLogin]</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Date: 2017/11</li>
+                    <li><a href="http://13.59.85.237/">Pop</a></li>
+                    <li><a href="https://github.com/cotgyu/Cot_pr1">Github</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
