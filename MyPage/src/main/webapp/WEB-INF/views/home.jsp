@@ -11,7 +11,7 @@
     <meta name="author" content="">
 
     <title>Cotgyu's Page</title>
-
+	<link rel="shortcut icon" href="/stylesheets/img/favicon.ico"/>
     <!-- Bootstrap core CSS -->
     <link href="/stylesheets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,12 +43,11 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">MySkills</a>
+              <a class="nav-link js-scroll-trigger" href="#services">MyStudy</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
-         
           </ul>
         </div>
       </div>
@@ -76,7 +75,7 @@
     </header>
 	
 	<!-- About -->
-    <section class="bg-light" id="about">
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -162,7 +161,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading"></h2>
-             <h2 class="section-heading">My Skills</h2>
+             <h2 class="section-heading">My Study</h2>
           </div>
         </div>
         <div class="row text-center">
@@ -177,17 +176,17 @@
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">SpringFramework</h4>
+            <h4 class="service-heading">WEB</h4>
             <p class="text-muted"></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Security</h4>
+            <h4 class="service-heading">SpringFramework</h4>
             <p class="text-muted"></p>
           </div>
         </div>
@@ -346,7 +345,7 @@
                   <p>[Spring, Spring Security, Mybatis, Mysql, NaverSmartEditor]</p>
                   <ul class="list-inline">
                     <li>Date: 2017/10</li>                  
-                    <li><a href="http://v123v123s.cafe24.com">Cot</a></li>
+                    <li><a href="http://v123v123s.cafe24.com/Cot_Pr1">Cot</a></li>
                     <li><a href="https://github.com/cotgyu/Cot_pr1">Github</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
