@@ -92,7 +92,7 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2012~2017</h4>
+                    <h4>2012/03 ~ 2018/02</h4>
                     <h4 class="subheading">단국대학교</h4>
                   </div>
                   <div class="timeline-body">
@@ -106,8 +106,8 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2013~2015</h4>
-                    <h4 class="subheading">군대 입대 </h4>
+                    <h4>2013 ~ 2015</h4>
+                    <h4 class="subheading">군 입대 </h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">9월 9일  6사단 입대 후 무사히 전역</p>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2017 10월</h4>
+                    <h4>2017/08 ~ 2017/10</h4>
                     <h4 class="subheading">Cot 완성</h4>
                   </div>
                   <div class="timeline-body">
@@ -134,11 +134,11 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2017 11월</h4>
-                    <h4 class="subheading">Pop 완성</h4>
+                    <h4>2017/11 ~</h4>
+                    <h4 class="subheading">Pop 진행</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">스프링을 이용한 SNS 완성(스터디 프로젝트)</p>
+                    <p class="text-muted">스프링을 이용한 SNS(스터디 프로젝트)</p>
                   </div>
                 </div>
               </li>
@@ -344,7 +344,7 @@
                   <img class="img-fluid d-block mx-auto" src="/stylesheets/img/portfolio/1.PNG" alt="">
                   <p>[Spring, Spring Security, Mybatis, Mysql, NaverSmartEditor]</p>
                   <ul class="list-inline">
-                    <li>Date: 2017/10</li>                  
+                    <li>Date: 2017/08 ~ 2017/10</li>                  
                     <li><a href="http://v123v123s.cafe24.com/Cot_Pr1">Cot</a></li>
                     <li><a href="https://github.com/cotgyu/Cot_pr1">Github</a></li>
                   </ul>
@@ -378,9 +378,9 @@
                   <img class="img-fluid d-block mx-auto" src="/stylesheets/img/portfolio/2.PNG" alt="">
                   <p>[Spring, Spring Security, Mybatis, Mysql, KaKaoLogin]</p>
                   <ul class="list-inline">
-                    <li>Date: 2017/11</li>
+                    <li>Date: 2017/11 ~</li>
                     <li><a href="http://13.59.85.237/">Pop</a></li>
-                    <li><a href="https://github.com/cotgyu/Cot_pr1">Github</a></li>
+                    <li><a href="https://github.com/cotgyu/">Github</a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -547,3 +547,5 @@
   </body>
 
 </html>
+
+
